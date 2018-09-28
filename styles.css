@@ -1,0 +1,135 @@
+body {
+    font-family: 'NS Sans', 'Frutiger 45 Light', 'Segoe UI', sans-serif;
+    background: #e6e6e9;
+    margin: 0;
+    border: 0;
+    padding: 0;
+    width: 100vw;
+}
+
+header > img {
+    width: 100vw;
+    margin-top: 9em;
+}
+
+a {
+    display: none;
+}
+
+h2 {
+    font-size: 2.8em;
+    margin-left: 0.2em;
+    margin-top: 1em;
+}
+
+h3 {
+    font-size: 1.8em;
+    background: #ffcd18;
+    padding-top: 0.2em;
+    padding-left: 0.5em;
+    padding-bottom: 0.2em;
+    margin: 0;
+    line-height: 1.5em;
+}
+
+
+nav > img {
+    margin: 0;
+    padding-bottom: 1.5em;
+    padding-top: 2em;
+    padding-left: 3em;
+    width: 8em;
+}
+
+nav {
+    position: fixed;
+    background-color: white;
+    /padding-right: 52em;
+    width: 100vw;
+    padding: 1em 0em 1em 0em;
+}
+
+header {
+    width: 100vw;
+    z-index: 91;
+}
+
+#readmore h3 {
+    font-size: 1.8em;
+    color: white;
+    background: #003082;
+    padding-top: 0.2em;
+    padding-left: 0.5em;
+    padding-bottom: 0.2em;
+    margin: 0;
+    letter-spacing: 0.1em;
+}
+
+section#readmore h1 {
+    background: rgba(255, 205, 24, 0);
+    font-size: 3.8em;
+    font-weight: 400;
+    padding: 0;
+    margin-top: 0.8em;
+    margin-left: 0.2em;
+    margin-bottom: -0.1em;
+    padding-bottom: 0.5em;
+}
+
+section#readmore {
+    display: inline-block;
+    color: #003082;
+    background: rgba(255, 205, 24, 0.975);
+    margin: -8em 1em 2em 1em;
+    padding: 0em 1em 2em 1em;
+    z-index: 90;
+    width: 93.5%;
+}
+
+section {
+    color: #003082;
+    background: white;
+    margin: 1em 1em 2em 1em;
+    padding: 0.1em 1em 2.5em 1em;
+    box-shadow: 0 8px 6px -6px rgb(7, 7, 33, .50);
+}
+
+div {
+    display: flex;
+    justify-content: left;
+    overflow-x: scroll;
+    z-index: 92;
+}
+
+
+/* Deze articles worden gevult met de plaatjes van de verhalen */
+
+article {
+    width: 20em;
+    height: 15em;
+    background: rgba(0, 0, 100, 0.5);
+    margin: .5em;
+    flex-shrink: 0;
+    overflow-y: hidden;
+}
+
+/**/
+
+#searchresults {
+    margin-bottom: 11em;
+}
+
+footer {
+    background: white;
+    width: 100vw;
+    flex-direction: row;
+    display: flex;
+    justify-content: center;
+    position: fixed;
+    bottom: 0;
+}
+
+footer img {
+    height: 5em;
+    padding: 2em;
+}
